@@ -11,6 +11,7 @@ pandoc>=2.4
 pip-chill>=1.0.3
 pymupdf>=1.25.2
 pypandoc>=1.15
+ray==2.42.0
 sentence-transformers>=3.4.0
 unstructured>=0.16.15
 uvloop>=0.21.0
