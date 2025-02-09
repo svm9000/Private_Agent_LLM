@@ -49,7 +49,7 @@ ollama pull llama3
 
 ```
 cd Private_LLM
-python3 privateGPT.py
+python3 privateAgentRag.py
 ```
 
 The default port for Gradio is 7860, so the application can be viewed locally on URL:
