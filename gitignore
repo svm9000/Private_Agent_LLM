@@ -6,6 +6,18 @@ flagged/
 # Models
 models/
 
+# virtual env
+fine_tune/
+
+# Ignore model outputs
+outputs/
+fine_tuned_lora/
+
+# Ignore other common files
+__pycache__/
+*.pyc
+*.ipynb_checkpoints
+
 # Local Chroma db
 .chroma/
 db/
