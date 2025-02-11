@@ -6,12 +6,19 @@ flagged/
 # Models
 models/
 
-# virtual env
-fine_tune/
-
 # Ignore model outputs
 outputs/
 fine_tuned_lora/
+
+
+# Ignore everything in the fine-tune-model directory
+fine-tune-model/*
+
+# Unignore all files directly in the fine-tune-model folder
+!fine-tune-model/*.*
+
+# Ensure subdirectories in fine-tune-model remain ignored
+fine-tune-model/*/
 
 # Ignore other common files
 __pycache__/
